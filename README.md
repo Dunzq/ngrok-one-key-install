@@ -11,8 +11,9 @@ Server
 ```Bash
 wget --no-check-certificate https://github.com/clangcn/ngrok-one-key-install/raw/master/install_ngrok.sh -O ./install_ngrok.sh
 chmod 500 ./install_ngrok.sh
-./install_ngrok.sh install	
+./install_ngrok.sh install
 ```
+un Install: ./install_ngrok.sh uninstall
 ### 服务器管理
 
 	Usage: /etc/init.d/ngrokd {start|stop|restart|status|config|adduser|deluser|userlist|info}
